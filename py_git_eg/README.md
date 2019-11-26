@@ -59,9 +59,7 @@ Rscript analyze.R
 ```
 
 
-######### Commands_Ass7_11004894_MG ####################
-
-#All code in one block
+### Commands_Ass7_11004894_MG
 
 
 ```bash
@@ -96,7 +94,7 @@ git push -u origin master #enter github username and password when requested
 ```
 
 
-######## git log output ##########
+##### git log output 
 
 (base) Martins-MacBook:py_git_eg martin$ git log
 commit c5a8ca80a6a2e3c92ca4696529414c0a7b925169 (HEAD -> master)
@@ -111,7 +109,7 @@ Date:   Tue Nov 26 11:54:46 2019 +0000
 
     Add initial version of thesis code
 
-######### git diff output #####################
+##### git diff output 
 
 (base) Martins-MacBook:py_git_eg martin$ git diff
 diff --git a/py_git_eg/clean.py b/py_git_eg/clean.py
@@ -121,7 +119,7 @@ index 9f76681..7f7ccf1 100644
 @@ -28,7 +28,7 @@ def filter_fold_change(feature, fc = 1):
          return False
  
- # Filter based on fold-change over control sample
+###### Filter based on fold-change over control sample
 -fc_cutoff = 10
 +fc_cutoff = 20
  epithelial = epithelial.filter(filter_fold_change, fc = fc_cutoff).saveas()
@@ -130,6 +128,6 @@ index 9f76681..7f7ccf1 100644
 
 
 
-############# github weblink ################
+##### github weblink 
 
 https://github.com/HaplessHacker/thesis/tree/master/py_git_eg
